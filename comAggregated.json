@@ -1,0 +1,3409 @@
+[
+    {
+        "links": [
+            {
+                "@type": "Link",
+                "rel": "self",
+                "uri": "https://sandboxapi.deere.com/platform/machines/1176252/machineMeasurements?pageOffset=0&itemLimit=100&startDate=2025-05-11T03:00:00Z&endDate=2025-05-18T02:59:59Z&embed=measurementDefinition&interval=aggregated"
+            }
+        ],
+        "total": 35,
+        "values": [
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Fuel Rate",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "l/hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrFuelRate",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430191",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Fuel Rate"
+                    },
+                    "id": "6A11C30D-CA22-3D18-ACA7-0AE54B13E0F3"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 22.210797739162924,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "32112"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 3.3030705945451673,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "227468"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 30.326289633390918,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "1783862"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Fuel Rate",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Fuel Information",
+                        "priority": 1,
+                        "id": "418"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "l/hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrFuelRate",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430190",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Average Fuel Rate"
+                    },
+                    "id": "011CEC8B-9364-DA1E-8EE8-4DEAC7B67709"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 27.190611212845777,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "2043442"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Engine Load Factor",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "prcnt",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrPercent",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430187",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Engine Load"
+                    },
+                    "id": "4C1C535B-C749-7626-26F9-EA8CAEE4C8F6"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 54.06621089308065,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "160579"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 18.384425871202296,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1137365"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 72.13839452318282,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "8919268"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Machine StarFire™ Signal Strength",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "0 - 4 dB",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "5 - 6 dB",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "7 - 9 dB",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "10 + dB",
+                                "minimumValue": 2.0,
+                                "maximumValue": 3.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "3"
+                            }
+                        ],
+                        "total": "4",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "StarFire Receiver Signal Strength",
+                        "priority": 100,
+                        "id": "2163"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "740055",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "4D882AA9-4D17-4A11-A3B2-476F75E99C3B"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 153345.31600000002,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "3",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 9.001,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 11.999,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 52510.835999999996,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "164"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Coolant Temp",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 10,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430186",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "36977A30-C12D-4B52-3D90-81382EAD7FF4"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 95.1074439420188,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "204342"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Engine Hourmeter",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "OpsCenterExcluded",
+                        "priority": 0,
+                        "id": "2238"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430208",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "31B87A00-64F9-6CF5-B172-220266943B38"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 3093.15,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg System Voltage",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "NoAxesGroup",
+                        "priority": 86,
+                        "id": "1"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "V",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrVoltage",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430195",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Voltage"
+                    },
+                    "id": "4D1A108B-CF44-10C5-1333-CEBF82632465"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 13.554039826421429,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "204864"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Machine StarFire™ Differential Correction",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "No Differential Corrections",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Satellite Based Augmentation System",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "SF1",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "SF2",
+                                "minimumValue": 2.0,
+                                "maximumValue": 3.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "3"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "SF3",
+                                "minimumValue": 3.0,
+                                "maximumValue": 4.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "4"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "SF-RTK",
+                                "minimumValue": 4.0,
+                                "maximumValue": 5.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "5"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "RTK-X",
+                                "minimumValue": 5.0,
+                                "maximumValue": 6.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "6"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "RTK",
+                                "minimumValue": 6.0,
+                                "maximumValue": 7.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "7"
+                            }
+                        ],
+                        "total": "8",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "StarFire Differential Corrections",
+                        "priority": 100,
+                        "id": "2165"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "740025",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "B52D4186-041C-4439-8069-6CC5A3066C10"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "6",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "7",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 205223.20100000003,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "3",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1.2,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "4",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "5",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 652.556,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "164"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Fuel Consumed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "l sec/hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrFuelVolume",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430241",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Fuel Consumed"
+                    },
+                    "id": "254FA2D2-D79D-94C5-9B66-6A602648C98C"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 71529.834,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 77606.97700000003,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 5409770.859000001,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Rear Hitch Upper Set Limit",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Hitch Settings",
+                        "priority": 20,
+                        "id": "488"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "prcnt",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrPercent",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430219",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Setting"
+                    },
+                    "id": "9EDB38A8-BAE3-4E5E-2A7C-FEE92BD2246B"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 100.0,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Period Fuel Consumed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Period Fuel Consumed",
+                                "minimumValue": -1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            }
+                        ],
+                        "total": "1",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Fuel Information",
+                        "priority": 1,
+                        "id": "418"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "l sec/hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrFuelVolume",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430214",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Fuel Consumed"
+                    },
+                    "id": "7233D40E-7657-773F-EAFC-5946AF207574"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 5558907.694999999,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Ground Speed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "km/hr",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrSpeed",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430192",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Speed"
+                    },
+                    "id": "88B80601-6632-73C1-8D8D-B3AA82C62FEA"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 26.281261233768255,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "32113"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "227447"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 7.529506729280444,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "1783846"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "StarFire™ 6000 Machine Receiver",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "On Time",
+                        "priority": 100,
+                        "id": "375"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "739687",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "CD387120-D92D-47DA-A9C5-3033B5889CA5"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 205876.92,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "164"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Rear Hitch Load Depth",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Hitch Settings",
+                        "priority": 20,
+                        "id": "488"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrCount",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430216",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Setting"
+                    },
+                    "id": "D630AFC9-11FB-CC08-D4DA-E71354371A9F"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.25,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "AutoTrac™ Utilization at High Speed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "AutoTrac™",
+                        "priority": 100,
+                        "id": "634"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "489822",
+                    "uiVisibleIndicator": "N",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "06AAF232-6398-E35F-7A34-1A7B498901B4"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 0.0,
+                                        "actualStartDate": "2025-05-12T16:00:01.000Z",
+                                        "actualEndDate": "2025-05-17T17:30:03.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "14"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 3211.475,
+                                        "actualStartDate": "2025-05-12T16:00:01.000Z",
+                                        "actualEndDate": "2025-05-17T17:30:03.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "14"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Machine Utilization",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430209",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "21FDC863-B93D-9ED2-29C7-97E483877741"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 3211.475,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 23692.436999999998,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 178390.83000000002,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Max Trans Oil Temp",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 15,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "MAX",
+                        "id": "5"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "71458",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "4A258714-0762-1865-F87B-FCD45616BA29"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 80.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Diff Lock",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "On Time",
+                        "priority": 10,
+                        "id": "375"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430198",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "CB70B21F-2CFA-7F72-2414-9422E67FDE12"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 689.577,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 204598.939,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Machine StarFire™ Receiver Accuracy",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "0% - 40%",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "50% - 70%",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "80%",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "90%",
+                                "minimumValue": 2.0,
+                                "maximumValue": 3.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "3"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "100%",
+                                "minimumValue": 3.0,
+                                "maximumValue": 4.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "4"
+                            }
+                        ],
+                        "total": "5",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "StarFire Receiver Accuracy",
+                        "priority": 100,
+                        "id": "2166"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "740026",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "D3338319-8174-43F1-9F12-58969D114580"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 684.902,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 201641.788,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "4",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1579.517,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1242.96,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "3",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 727.985,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "164"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Maximum Hydraulic Oil Temperature",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 13,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "MAX",
+                        "id": "5"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "71457",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "6074C8D8-A93E-4DEB-7043-93360C33600D"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 80.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Average Hydraulic Oil Temperature",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 12,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430193",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "A05AFF14-D320-244E-AAD7-D69AE6E22A38"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 71.32748287218736,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "204346"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Trans Oil Temp",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 14,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430196",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "737CA4F9-86EB-5CCB-FC74-70524DD05F3F"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 71.30695146467266,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "204346"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Rear Hitch Operating Depth",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Hitch Settings",
+                        "priority": 20,
+                        "id": "488"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "prcnt",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrPercent",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430217",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Setting"
+                    },
+                    "id": "DF1A4268-5244-7BE3-9D1C-0484F4DAAC63"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 98.005,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Rear Hitch Raise Rate",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Hitch Settings",
+                        "priority": 20,
+                        "id": "488"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrCount",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430218",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Setting"
+                    },
+                    "id": "809425B0-FB5A-3743-26AD-C89453BB1304"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 4.99,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "MFWD",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "On Time",
+                        "priority": 10,
+                        "id": "375"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430213",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "3D180AE6-3BE4-920B-8ADE-A3F1353892C7"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 187861.80199999997,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 17426.773,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Fuel Tank Level",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Fuel Information",
+                        "priority": 0,
+                        "id": "418"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "LAST",
+                        "id": "6"
+                    },
+                    "unitOfMeasure": "prcnt",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrFuelLevel",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430201",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Fuel Level"
+                    },
+                    "id": "A61BBD49-9345-5109-F7F2-AECBCC3D2D57"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 98.0,
+                                        "actualStartDate": "2025-05-17T20:17:53.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Max Coolant Temp",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Temperatures",
+                        "priority": 11,
+                        "id": "24"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "MAX",
+                        "id": "5"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430210",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "8A2E97C7-3941-2615-D712-886186FDE6DB"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 105.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Wheel Slip Time at Level",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "0.00-2.00%",
+                                "minimumValue": -20.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "2.01-4.00%",
+                                "minimumValue": 2.0,
+                                "maximumValue": 4.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "4.01-6.00%",
+                                "minimumValue": 4.0,
+                                "maximumValue": 6.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "6.01-8.00%",
+                                "minimumValue": 6.0,
+                                "maximumValue": 8.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "3"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "8.01-10.00%",
+                                "minimumValue": 8.0,
+                                "maximumValue": 10.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "4"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "10.01-12.00%",
+                                "minimumValue": 10.0,
+                                "maximumValue": 12.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "5"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "12.01-14.00%",
+                                "minimumValue": 12.0,
+                                "maximumValue": 14.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "6"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "14.01-16.00%",
+                                "minimumValue": 14.0,
+                                "maximumValue": 16.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "7"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "16.01-18.00%",
+                                "minimumValue": 16.0,
+                                "maximumValue": 18.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "8"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "18.01-100.00%",
+                                "minimumValue": 18.0,
+                                "maximumValue": 100.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "9"
+                            }
+                        ],
+                        "total": "10",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Spin Control",
+                        "priority": 100,
+                        "id": "261"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "723521",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "DAD17B4E-5C7A-4938-AE16-88E0810D01AC"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 34277.299000000006,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 14044.705000000002,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "4",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 37862.295,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 7624.856,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "5",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 24255.900000000005,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "3",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 4335.328,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "6",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 48476.254999999976,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 2408.5460000000003,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "7",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 3630.425000000001,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "9",
+                                        "count": "148"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1388.0230000000001,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "8",
+                                        "count": "148"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Average Engine Cooling Fan Speed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "OpsCenterExcluded",
+                        "priority": 3,
+                        "id": "2238"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "RPM",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrRPM",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "159301",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Fan Speed"
+                    },
+                    "id": "7D51A24F-90FA-C774-D435-EB37175922BD"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1322.614653990025,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "3208"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1099.270369794412,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "22764"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1622.0195180268315,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "178373"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Max Fuel Temperature",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "OpsCenterExcluded",
+                        "priority": 5,
+                        "id": "2238"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "MAX",
+                        "id": "5"
+                    },
+                    "unitOfMeasure": "C",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTemperature",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430203",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Temperature"
+                    },
+                    "id": "67271D0C-BF59-8EFA-C02A-64B091E36B38"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 85.0,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Average Engine Speed",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Idle",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Working",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Transport",
+                                "minimumValue": 1.0,
+                                "maximumValue": 2.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "2"
+                            }
+                        ],
+                        "total": "3",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "Machine Utilization by Machine State",
+                        "priority": 3,
+                        "id": "130"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "RPM",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrRPM",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430188",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Engine RPM"
+                    },
+                    "id": "45D0D058-2500-001A-EB61-853C86352FA7"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1861.7519769268854,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "2",
+                                        "count": "321153"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 1002.7747619766068,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "2274747"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 2043.5424524402217,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "17838540"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "Avg Wheel Slip",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [],
+                        "total": "0",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "OpsCenterExcluded",
+                        "priority": 100,
+                        "id": "2238"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "WEIGHTED_AVERAGE",
+                        "id": "3"
+                    },
+                    "unitOfMeasure": "prcnt",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "SingleValue"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrPercent",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "723470",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Wheel Slip"
+                    },
+                    "id": "2E378163-5709-4A0A-8309-B8FEF73651E3"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 6.067178037678483,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "1482703"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "AutoTrac™",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "OpsCenterExcluded",
+                        "priority": 10,
+                        "id": "2238"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "430185",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "439EB843-5743-BC4E-06B8-BCCF05B6A84B"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 135053.706,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "160"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 70234.14500000002,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "160"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "AutoTrac™ Utilization in Working State",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "AutoTrac™",
+                        "priority": 100,
+                        "id": "634"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "462831",
+                    "uiVisibleIndicator": "N",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "15854844-4B84-38CF-C1A7-6C549E6C11C6"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 133964.783,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "149"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 44434.138999999996,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "149"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            },
+            {
+                "machineMeasurementDefinition": {
+                    "@type": "MachineMeasurementDefinition",
+                    "name": "AutoTrac™",
+                    "bucketDefinitions": {
+                        "@type": "MachineMeasurementDefinition$BucketDefinitions",
+                        "bucketDefinitions": [
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "On",
+                                "minimumValue": -1.0,
+                                "maximumValue": 0.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "0"
+                            },
+                            {
+                                "@type": "MachineMeasurementDefinition$BucketDefinitions$BucketDefinition",
+                                "description": "Off",
+                                "minimumValue": 0.0,
+                                "maximumValue": 1.0,
+                                "rangeIndicator": false,
+                                "sequenceNumber": "1"
+                            }
+                        ],
+                        "total": "2",
+                        "otherAttributes": {}
+                    },
+                    "axesGroup": {
+                        "@type": "MachineMeasurementDefinition$AxesGroup",
+                        "value": "On Time",
+                        "priority": 100,
+                        "id": "375"
+                    },
+                    "aggregationType": {
+                        "@type": "MachineMeasurementDefinition$AggregationType",
+                        "value": "SUM",
+                        "id": "1"
+                    },
+                    "unitOfMeasure": "sec",
+                    "measurementType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementType",
+                        "value": "Vector"
+                    },
+                    "representationType": {
+                        "@type": "MachineMeasurementDefinition$RepresentationType",
+                        "value": "vrTimeDuration",
+                        "id": "0"
+                    },
+                    "measurementImplementationId": "738954",
+                    "uiVisibleIndicator": "Y",
+                    "measurementRepresentationType": {
+                        "@type": "MachineMeasurementDefinition$MeasurementRepresentationType",
+                        "representationTypeLocalized": "Time"
+                    },
+                    "id": "BB952DAF-E385-4B5A-892B-3F20C50B3FB9"
+                },
+                "networkType": "CELLULAR",
+                "series": {
+                    "@type": "MachineMeasurement$Series",
+                    "intervals": [
+                        {
+                            "@type": "MachineMeasurement$Series$Interval",
+                            "buckets": {
+                                "@type": "MachineMeasurement$Series$Interval$Buckets",
+                                "buckets": [
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 135053.706,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "0",
+                                        "count": "164"
+                                    },
+                                    {
+                                        "@type": "MachineMeasurement$Series$Interval$Buckets$Bucket",
+                                        "value": 70839.72300000001,
+                                        "actualStartDate": "2025-05-11T09:53:19.000Z",
+                                        "actualEndDate": "2025-05-17T20:19:04.000Z",
+                                        "sequenceNumber": "1",
+                                        "count": "164"
+                                    }
+                                ],
+                                "otherAttributes": {}
+                            }
+                        }
+                    ],
+                    "level": "aggregated",
+                    "otherAttributes": {}
+                },
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "machine",
+                        "uri": "https://api.deere.com/platform/machines/1176252"
+                    }
+                ]
+            }
+        ]
+    }
+]
